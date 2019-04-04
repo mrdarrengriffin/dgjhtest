@@ -1,7 +1,7 @@
 function Template() {
     this.variables = {
         "app-name": "S3MT",
-        "app-version": "2.0.0"
+        "app-version": "2.0.1"
     }
 
     this.renderVariables = () => {
