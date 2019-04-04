@@ -1,7 +1,7 @@
-function init(){
-    
+function init() {
+  setInterval(tick(), 1000)
 }
 
-function tick(){
-    
+function tick() {
+
 }
