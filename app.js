@@ -19,8 +19,8 @@ function tick() {
     $("#date #year").text(now.getFullYear())
 
     // Time
-    $("#time #hour").text(now.getHours())
-    $("#time #minute").text(now.getMinutes())
+    $("#time #hour").text(padZero(now.getHours()))
+    $("#time #minute").text(padZero(now.getMinutes()))
     $("#time #second").text(padZero(now.getSeconds()))
 }
 
