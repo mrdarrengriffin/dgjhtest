@@ -9,8 +9,8 @@ function Template() {
 
   this.renderVariables = () => {
     Object.keys(this.variables).forEach(variable => {
-      var variableValue = this.variables[variable]
-      $("*[data-value='" + variable + "']").text(variableValue)
+      var value = this.variables[variable]
+      $("*[data-value='" + variable + "']").text(value)
     })
   }
 
