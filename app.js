@@ -25,7 +25,7 @@ function tick() {
 }
 
 function padZero(i) {
-    return (i < 10 ? "0"+i : i)
+    return (i < 10 ? "0" + i : i)
 }
 
 function getOrdinal(d) {
